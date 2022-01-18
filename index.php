@@ -14,8 +14,10 @@
 <body>
   <h2>Frase senza censura</h2>
   <p><?php echo $notCensored; ?></p>
+  <p>Numero di caratteri:<?php echo strlen($notCensored); ?></p>
 
   <h2>Frase con censura</h2>
   <p><?php echo $censored ?></p>
+  <p>Numero di caratteri:<?php echo strlen($censored) ?></p>
 </body>
 </html>
